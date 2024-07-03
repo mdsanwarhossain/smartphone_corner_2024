@@ -46,6 +46,7 @@ function Products() {
   return (
     
     <div id="productGrid" className="grid grid-cols-1 md:grid-cols-3 gap-4 h-1/2">
+      
       {renderProducts()}
     </div>
   );

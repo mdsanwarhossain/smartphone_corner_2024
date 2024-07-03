@@ -7,7 +7,8 @@ function ProductCard({ product }) {
     <Link to={`/product/${product.id}`}>
       {" "}
       {ProductDetails}
-      <div className="bg-white p-4 border border-gray-200 rounded-lg m-auto object-center shadow-lg relative  hover: shadow-indigo-500/40 ml-7 mr-7 my-5">
+     
+      <div className="bg-white p-4 border border-gray-200 rounded-lg m-auto object-center shadow-lg relative  hover: shadow-indigo-500/40 ml-7 mr-7 my-5 pt-8">
         <img
           src={product.thumbnail}
           alt={product.title}
